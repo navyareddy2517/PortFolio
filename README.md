@@ -9,8 +9,7 @@ It showcases my **skills, projects, and achievements** with a clean, responsive 
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live Project](http://192.168.31.100:3000)
----
+- Portfolio Website: [View Here](https://app.netlify.com/projects/navya25-portfolio)
 
 ## ✨ Features
 - 🎨 Modern and responsive UI (works on all devices)
