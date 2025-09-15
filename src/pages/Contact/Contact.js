@@ -17,7 +17,7 @@ const Contact = () => {
         "Ty8PP1oRyZb16mKkv"    
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully!");
           formRef.current.reset();
         },
@@ -36,60 +36,26 @@ const Contact = () => {
 
         {/* Social Icons */}
         <div className="social-icons">
-          <a
-            href="https://www.linkedin.com/in/navyasrinivas25/"
-            target="_blank"
-            rel="noreferrer"
-            className="ms-2"
-          >
+          <a href="https://www.linkedin.com/in/navyasrinivas25/" target="_blank" rel="noreferrer">
             <BsLinkedin color="blue" size={28} />
           </a>
-          <a
-            href="https://github.com/navyareddy2517"
-            target="_blank"
-            rel="noreferrer"
-            className="ms-2"
-          >
+          <a href="https://github.com/navyareddy2517" target="_blank" rel="noreferrer">
             <BsGithub color="black" size={28} />
           </a>
-          <a href="mailto:navyasrinivas25@gmail.com" className="ms-2">
+          <a href="mailto:navyasrinivas25@gmail.com">
             <BsEnvelopeFill color="black" size={28} />
           </a>
-          <a href="tel:+916304892545" className="ms-2">
+          <a href="tel:+916304892545">
             <BsTelephoneFill color="blue" size={28} />
           </a>
         </div>
 
-        {/* Contact Form (Top) */}
         <form className="contact-form" ref={formRef} onSubmit={sendEmail}>
           <input type="text" name="from_name" placeholder="NAME" required />
           <input type="email" name="reply_to" placeholder="EMAIL ADDRESS" required />
           <textarea name="message" placeholder="MESSAGE" rows="5" required></textarea>
           <button type="submit">SUBMIT</button>
         </form>
-      </div>
-
-      {/* Footer Contact */}
-      <div className="contact-footer">
-        <div className="footer-left">
-          <h3>Navya Gujjula</h3>
-          <p>Feel free to reach out for collaborations or just a friendly hello!</p>
-          <div className="social-icons">
-            <a href="https://www.linkedin.com/in/navyasrinivas25/"><BsLinkedin /></a>
-            <a href="https://github.com/navyareddy2517"><BsGithub /></a>
-            <a href="mailto:navyasrinivas25@gmail.com"><BsEnvelopeFill /></a>
-            <a href="tel:+916304892545"><BsTelephoneFill /></a>
-          </div>
-        </div>
-
-        <div className="footer-right">
-          <form ref={formRef} onSubmit={sendEmail}>
-            <input type="text" name="from_name" placeholder="NAME" required />
-            <input type="email" name="reply_to" placeholder="EMAIL ADDRESS" required />
-            <textarea name="message" placeholder="MESSAGE" rows="5" required></textarea>
-            <button type="submit">SUBMIT</button>
-          </form>
-        </div>
       </div>
     </section>
   );
