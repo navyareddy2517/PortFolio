@@ -31,8 +31,6 @@ It showcases my **skills, projects, and achievements** with a clean, responsive 
 
 
 
-### 🔹 Homepage
-![Homepage](public/profileimg.jpg)
 
 ### 🔹 Projects
 ![Projects](public/JSquiz.png)
