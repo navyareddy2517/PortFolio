@@ -9,7 +9,7 @@ It showcases my **skills, projects, and achievements** with a clean, responsive 
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live Project]( http://localhost:3000)
+🔗 [View Live Project](http://192.168.31.100:3000)
 ---
 
 ## ✨ Features
